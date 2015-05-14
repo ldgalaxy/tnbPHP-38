@@ -1,8 +1,10 @@
 <?php
 
-$food = array('Pasta', 'Pizza', 'Salad');
+$food = array('Pasta', 'Pizza', 'Salad', 'Vegetable');
 
-echo $food[1];
+$food[4] = 'Fruit';
+
+print_r($food);
 
 
 ?>
